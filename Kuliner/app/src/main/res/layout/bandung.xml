@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Peuyeum Bandung atau dalam bahasa Indonesianya disebut dengan tape adalah salah satu makanan khas tatar Pasundan. Peuyeum berdasarkan bahan dasarnya dibedakan menjadi dua jenis. Yang pertama terbuat dari singkong. Peuyeum ini yang sering dijumpai di pusat oleh – oleh. Kemudian yang kedua yaitu peuyeum yang dibuat dari beras ketan yang telah di fermentasikan."
+        android:layout_width="296dp"
+        android:layout_height="314dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/ic_launcher2"
+        android:layout_marginTop="100dp"
+        android:id="@+id/imageView5"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Versi asli seblak khas Bandung adalah seblak basah pake telor special yang terbuat dari kerupuk mentah yang direndam air panas terlebih dahulu, kemudian perkembangannya bermunculan aneka kreasi olahan menu seblak kering garing setan super pedas hot jeletot, seperti basreng, cireng. dll."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:id="@+id/back_bdg"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
